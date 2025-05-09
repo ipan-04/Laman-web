@@ -1,0 +1,133 @@
+.framed-image-square {
+  border: 5px solid #4CAF50;   
+  padding: 5px; 
+  background-color: white; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
+  width: 200px;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 10px;  
+}
+
+
+.square-frame {
+  display: inline-block;
+  padding: 10px;
+  background-color: #4CAF50; 
+  border-radius: 10px;       
+}
+
+.square-frame img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.framed-image {
+  border: 5px solid #eded17; 
+  border-radius: 80%;        
+  padding: 5px;
+  background-color: white;   
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  width: 150px;              
+  height: 150px;
+  object-fit: cover;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+  }
+  
+  nav {
+    background: linear-gradient(to right, #40a5be, #71d376);
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-top: 100px;
+  }
+  
+  h2 {
+    font-size: 2.2em;
+    margin-top: 80px;
+  }
+
+  .p1{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p.subtext {
+    font-size: 1.1em;
+    color: #666;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  }
+  
+  section {
+    padding: 60px 20px;
+  }
+
+.justified-text {
+  text-align: justify;
+  line-height: 1.6; 
+  font-size: 16px;
+  max-width: 800px;
+  margin: auto;
+}
+
+  .box {
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    min-height: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .box h3 {
+    color: #00796b;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .box h2 {
+    color: antiquewhite;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  .box p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
